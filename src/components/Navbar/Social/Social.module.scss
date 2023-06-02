@@ -1,0 +1,16 @@
+.socialWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  .socialIcon {
+    width: 22px;
+    height: 22px;
+    margin: 0 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.dojo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .dojo {
+    flex-direction: column;
+  }
+}

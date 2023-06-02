@@ -1,0 +1,21 @@
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.dojo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .dojo {
+    flex-direction: column;
+    max-width: 100%;
+    .map {
+      width: 100%;
+    }
+  }
+}

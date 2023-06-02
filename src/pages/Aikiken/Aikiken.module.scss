@@ -1,0 +1,26 @@
+.aikiken {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+
+  .highlight {
+    color: red;
+  }
+
+  .list {
+    text-align: justify;
+  }
+
+  .option {
+    text-align: left;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+
+@media (width < 1024px) {
+  .aikiken {
+    padding: 5%;
+  }
+}
