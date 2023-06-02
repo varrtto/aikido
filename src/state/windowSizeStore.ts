@@ -7,7 +7,7 @@ type windowSizeStoreProps = {
   initialized: boolean;
 };
 
-export const useWindowSizeStore = create<windowSizeStoreProps>((set) => ({
+export const useWindowSizeStore = create<windowSizeStoreProps>(() => ({
   isMobile: false,
   isTablet: false,
   isDesktop: false,
